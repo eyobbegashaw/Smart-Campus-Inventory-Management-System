@@ -1,4 +1,4 @@
-﻿const Asset = require('../models/Asset');
+const Asset = require('../models/Asset');
 const AssetCategory = require('../models/AssetCategory');
 const Checkout = require('../models/Checkout');
 const Department = require('../models/Department');

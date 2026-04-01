@@ -1,4 +1,4 @@
-﻿const InventoryItem = require('../models/InventoryItem');
+const InventoryItem = require('../models/InventoryItem');
 const Requisition = require('../models/Requisition');
 const Department = require('../models/Department');
 const User = require('../models/User');
