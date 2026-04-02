@@ -4,8 +4,6 @@ const Department = require('../models/Department');
 const User = require('../models/User');
 const mongoose = require('mongoose');
 
-
-
 // @desc    Get all inventory items
 // @route   GET /api/inventory
 // @access  Private
