@@ -4,8 +4,6 @@ const User = require('../models/User');
 const Department = require('../models/Department');
 const mongoose = require('mongoose');
 
-
-
 // @desc    Get all books
 // @route   GET /api/library/books
 // @access  Private
