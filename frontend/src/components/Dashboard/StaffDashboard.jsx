@@ -17,6 +17,8 @@ const StaffDashboard = ({ stats }) => {
     );
   }
 
+
+
   return (
     <div className="space-y-6 fade-in">
       {/* Welcome Section */}
