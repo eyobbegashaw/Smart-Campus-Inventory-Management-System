@@ -9,7 +9,6 @@ const Checkout = require('../models/Checkout');
 const moment = require('moment');
 
 
-
 // @desc    Generate asset report
 // @route   GET /api/reports/assets
 // @access  Private/Admin
