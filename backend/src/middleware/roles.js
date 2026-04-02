@@ -10,8 +10,6 @@ const roleLevels = {
   admin: 4
 };
 
-
-
 /**
  * Check if user has required role level
  */
