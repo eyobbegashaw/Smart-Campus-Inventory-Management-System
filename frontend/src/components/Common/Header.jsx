@@ -3,8 +3,7 @@ import { useAuth } from '../../contexts/AuthContext';
 import { FiMenu, FiBell, FiUser, FiLogOut, FiSettings, FiChevronDown } from 'react-icons/fi';
 import { useNavigate, Link } from 'react-router-dom';
 import io from 'socket.io-client';
-import toast from 'react-hot-toast';
-
+import toast from 'react-hot-toast
 const Header = ({ sidebarOpen, setSidebarOpen }) => {
   const { user, logout } = useAuth();
   const navigate = useNavigate();
