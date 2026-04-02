@@ -2,6 +2,7 @@ import React from 'react';
 import { useTable, usePagination, useSortBy, useFilters } from 'react-table';
 import { FiChevronLeft, FiChevronRight, FiChevronsLeft, FiChevronsRight } from 'react-icons/fi';
 
+
 const DataTable = ({ columns, data, loading, pageSize = 10, onRowClick }) => {
   const {
     getTableProps,
