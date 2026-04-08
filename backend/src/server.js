@@ -10,6 +10,7 @@ const fs = require('fs');
 require('express-async-errors');
 require('dotenv').config();
 
+
 // Import routes
 const authRoutes = require('./routes/authRoutes');
 const assetRoutes = require('./routes/assetRoutes');
