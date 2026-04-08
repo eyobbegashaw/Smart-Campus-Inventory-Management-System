@@ -6,7 +6,6 @@ const User = require('../models/User');
 const { generateAssetQR } = require('../services/qrGenerator');
 const mongoose = require('mongoose');
 
-
 // @desc    Get all assets
 // @route   GET /api/assets
 // @access  Private
