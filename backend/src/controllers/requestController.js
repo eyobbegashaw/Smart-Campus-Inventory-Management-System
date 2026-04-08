@@ -6,7 +6,6 @@ const path = require('path');
 const fs = require('fs');
 const mongoose = require('mongoose');
 
-
 // Configure multer for file uploads
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
