@@ -2,6 +2,7 @@ import React from 'react';
 import { Navigate } from 'react-router-dom';
 import { useAuth } from '../../contexts/AuthContext';
 
+
 const PrivateRoute = ({ children, adminOnly = false, hodOnly = false, staffOnly = false }) => {
   const { isAuthenticated, loading, user, isAdmin, isHod, isStaff } = useAuth();
 
