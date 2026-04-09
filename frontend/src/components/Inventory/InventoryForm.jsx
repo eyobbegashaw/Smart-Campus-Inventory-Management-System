@@ -8,6 +8,7 @@ const InventoryForm = ({ isOpen, onClose, onSubmit, initialData, isEditing = fal
   const [loading, setLoading] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState('');
 
+
   const watchQuantity = watch('quantity');
   const watchMinQuantity = watch('minimumQuantity');
 
