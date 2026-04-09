@@ -4,6 +4,7 @@ import { QRCodeCanvas } from 'qrcode.react';
 import { FiX, FiDownload, FiPrinter } from 'react-icons/fi';
 import { useReactToPrint } from 'react-to-print';
 
+
 const QRCodeDisplay = ({ isOpen, onClose, asset }) => {
   const qrRef = useRef();
 
