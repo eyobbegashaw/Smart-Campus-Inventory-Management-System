@@ -1,0 +1,11 @@
+/* 1. መጀመሪያ Imports (ሁልጊዜ ከላይ መሆን አለባቸው) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Ethiopic:wght@400;500;600;700&display=swap');
+
+/* 2. ከዚያ Tailwind (ለ v4 አጻጻፍ) */
+@import "tailwindcss";
+
+/* 3. ከፈለግክ ያንተን የራስህን Custom CSS ከዚህ በታች መጨመር ትችላለህ */
+:root {
+  font-family: 'Inter', 'Noto Sans Ethiopic', sans-serif;
+}

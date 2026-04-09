@@ -1,0 +1,39 @@
+﻿# Smart Campus Inventory Management System
+
+A comprehensive digital solution for educational institutions in Ethiopia to manage physical assets, track inventory, handle service requests, and streamline campus operations.
+
+## 🌟 Features
+
+### Core Functionality
+- **QR Code-based Asset Tracking**: Track computers, furniture, lab equipment with QR codes
+- **Inventory Management**: Monitor consumables with low-stock alerts
+- **Service/Maintenance Requests**: Digital system for reporting repairs
+- **Cafe/Requisition Management**: Digital supply request and approval system
+- **Library Checkout**: Simple book checkout/return tracking
+- **Admin Dashboard**: Real-time analytics and reporting
+
+### Role-Based Access
+- **Admin**: Full system control
+- **Department Head (HOD)**: Approve requisitions, view department assets
+- **Staff**: Process requests, manage checkouts
+- **Students**: Submit requests, view library
+
+### Local Context Features
+- **Amharic Language Support**: Full support for Amharic text
+- **Multi-Campus Management**: Track assets across different campuses
+- **Photo Upload**: Upload images for service requests
+- **Real-time Notifications**: Instant updates on request status
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Node.js 18+
+- MongoDB 6+
+- Docker (optional)
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone [https://github.com/eyobbegashaw/smart-campus-inventory.git](https://github.com/eyobbegashaw/Smart-Campus-Inventory-Management-System.git
+cd smart-campus-inventory
