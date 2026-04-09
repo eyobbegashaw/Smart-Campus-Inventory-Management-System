@@ -10,6 +10,7 @@ const RequestCard = ({ request, onStatusUpdate }) => {
     urgent: 'bg-red-100 text-red-800'
   };
 
+
   const statusColors = {
     submitted: 'bg-blue-100 text-blue-800',
     reviewing: 'bg-purple-100 text-purple-800',
