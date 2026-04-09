@@ -9,6 +9,7 @@ const CheckoutScanner = ({ isOpen, onClose, onSuccess }) => {
   const [loading, setLoading] = useState(false);
   const [book, setBook] = useState(null);
 
+
   const handleScan = async (data) => {
     if (data && !loading) {
       setScanning(false);
