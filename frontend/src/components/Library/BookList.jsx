@@ -14,6 +14,7 @@ const BookList = ({ books, loading, onCheckout }) => {
     return matchesSearch && matchesCategory;
   });
 
+
   const categories = [...new Set(books.map(book => book.category))];
 
   if (loading) {
