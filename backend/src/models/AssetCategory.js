@@ -1,3 +1,4 @@
+
 const mongoose = require('mongoose');
 
 const assetCategorySchema = new mongoose.Schema({
