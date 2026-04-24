@@ -1,4 +1,3 @@
-
 import React, { useState, useMemo } from 'react';
 import { useTable, usePagination, useSortBy, useFilters } from 'react-table';
 import { FiSearch, FiFilter, FiDownload, FiCamera, FiEye } from 'react-icons/fi';
