@@ -1,5 +1,3 @@
-
-
 import React, { useState, useEffect } from 'react';
 import { useForm, useFieldArray } from 'react-hook-form';
 import { FiX, FiPlus, FiTrash2, FiShoppingCart } from 'react-icons/fi';
