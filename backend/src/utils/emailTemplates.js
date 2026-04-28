@@ -1,4 +1,3 @@
-
 /**
  * Email template generator functions
  */
