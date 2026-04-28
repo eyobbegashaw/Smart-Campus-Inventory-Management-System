@@ -1,4 +1,3 @@
-
 import React, { useRef } from 'react';
 // 1. QRCodeCanvas ተብሎ እንዲጠራ ተቀይሯል
 import { QRCodeCanvas } from 'qrcode.react'; 
